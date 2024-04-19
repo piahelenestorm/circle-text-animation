@@ -44,3 +44,13 @@ body {
 	font-size: 1.2em;
 	transform-origin: 0 100px;
 }
+
+
+@media (prefers-reduced-motion) {
+	@keyframes textRotation {
+	to {
+		transform: rotate(0deg);
+	}
+}
+}
+
